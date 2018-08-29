@@ -19,11 +19,11 @@
     "build:r2-shared-js": "cd r2-shared-js && npm run build:es5",
     "build:r2-navigator-web": "cd r2-navigator-web && npm run build",
     "build:r2-testapp-web": "cd r2-testapp-web && npm run build",
-    "clone:r2-utils-js": "[ ! -d r2-utils-js ] && git clone git@github.com:evidentpoint/r2-utils-js.git || :",
-    "clone:r2-lcp-js": "[ ! -d r2-lcp-js ] && git clone git@github.com:evidentpoint/r2-lcp-js.git || :",
-    "clone:r2-shared-js": "[ ! -d r2-shared-js ] && git clone git@github.com:evidentpoint/r2-shared-js.git || :",
-    "clone:r2-navigator-web": "[ ! -d r2-navigator-web ] && git clone git@github.com:evidentpoint/r2-navigator-web.git || :",
-    "clone:r2-testapp-web": "[ ! -d r2-testapp-web ] && git clone git@github.com:evidentpoint/r2-testapp-web.git || :",
+    "clone:r2-utils-js": "[ ! -d r2-utils-js ] && git clone https://github.com/evidentpoint/r2-utils-js.git || :",
+    "clone:r2-lcp-js": "[ ! -d r2-lcp-js ] && git clone https://github.com/evidentpoint/r2-lcp-js.git || :",
+    "clone:r2-shared-js": "[ ! -d r2-shared-js ] && git clone https://github.com/evidentpoint/r2-shared-js.git || :",
+    "clone:r2-navigator-web": "[ ! -d r2-navigator-web ] && git clone https://github.com/evidentpoint/r2-navigator-web.git || :",
+    "clone:r2-testapp-web": "[ ! -d r2-testapp-web ] && git clone https://github.com/evidentpoint/r2-testapp-web.git || :",
     "clean:npm": "rm -rf ./**/node_modules && rm -rf ./**/yarn.lock"
   },
   "workspaces": {
